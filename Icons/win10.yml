@@ -1,0 +1,15 @@
+Name: win10
+Description: Win10 icon pack.
+
+Package:
+  name: Win10
+  icon: win10.png
+  path: ~/.icons/Win10
+  
+Steps:
+- action: install_theme
+  file_name: Win10.tar.gz
+  url: https://github.com/linux-themes/.icons/blob/main/.icons/data/win10/Win10.xz
+  
+- action: set_theme
+  path: ~/.icons/Win10
