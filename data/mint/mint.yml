@@ -1,15 +1,11 @@
-Name: mint
+Name: Mint
 Description: Mint icon pack.
+Category: .icons
 
 Package:
   name: Mint
   icon: mint.png
   path: ~/.icons/Mint
-  
-Steps:
-- action: install_theme
   file_name: Mint.tar.gz
   url: https://github.com/linux-themes/.icons/blob/main/.icons/data/mint/Mint.xz
   
-- action: set_theme
-  path: ~/.icons/Mint
