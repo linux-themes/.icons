@@ -5,7 +5,8 @@ Themes:
     Category: Icons
     Icon: mint.svg
     Path: ~/.icons/Mint/
-  
+    Url: https://github.com/linux-themes/.icons/raw/refs/heads/main/data/mint/Mint.tar.xz
+
   2:
     Name: Infinity
     Description: Infinity Icon pack.
